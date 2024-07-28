@@ -5,23 +5,25 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 20px;
+      margin: 0; /* remove default margin */
+      padding: 0; /* remove default padding */
     }
     .container {
       max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
+      margin: 0 auto; /* remove default margin */
+      padding: 0; /* remove default padding */
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       background-color: #ffffff;
     }
     .header {
-      padding: 40px; /* added padding */
+      padding: 40px;
       text-align: left;
+      margin-left: 0; /* add this rule to remove any remaining space on the left */
     }
     .header h1 {
       margin: 0;
       padding: 0;
-      font-size: 64px; /* increased font size */
+      font-size: 64px;
       font-weight: bold;
     }
     .content {
