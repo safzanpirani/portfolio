@@ -71,88 +71,6 @@
     .blog a:hover {
       color: #23527c;
     }
-    :root {
-      --background-color: #ffffff;
-      --text-color: #333333;
-      --link-color: #337ab7;
-      --header-background-color: #f7f7f7;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --background-color: #333333;
-        --text-color: #ffffff;
-        --link-color: #66d9ef;
-        --header-background-color: #444444;
-      }
-    }
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      background-color: var(--background-color);
-      color: var(--text-color);
-    }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: var(--background-color);
-    }
-    .header {
-      padding: 40px;
-      text-align: left;
-      padding-left: 0;
-      background-color: var(--header-background-color);
-    }
-    .header h1 {
-      margin: 0;
-      padding: 0;
-      font-size: 64px;
-      font-weight: bold;
-      color: var(--text-color);
-    }
-    .content {
-      padding: 20px;
-    }
-    .projects {
-      padding: 20px;
-      padding-left: 0;
-    }
-    .project {
-      margin-bottom: 20px;
-      padding: 20px;
-      border-bottom: 1px solid #cccccc;
-      text-align: left;
-      padding-left: 0px;
-    }
-    .project h2 {
-      margin: 0;
-      padding: 0;
-      color: var(--text-color);
-    }
-    .project p {
-      margin: 0;
-      padding: 0;
-      color: var(--text-color);
-    }
-    .list-spacer li {
-      margin-bottom: 0.5em;
-    }
-    .blog {
-      padding: 20px;
-      background-color: var(--background-color);
-      border: 1px solid #cccccc;
-    }
-    .blog h2 {
-      margin: 0;
-      padding: 0;
-      color: var(--text-color);
-    }
-    .blog a {
-      color: var(--link-color);
-    }
-    .blog a:hover {
-      color: var(--link-color);
-    }
   </style>
 </head>
 <body>
@@ -227,3 +145,125 @@
           </html>
             </div>
         </div>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>safzan's portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      /* Add dark mode styles */
+      background-color: #000;
+      color: #fff;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #1a1a1a; /* Dark mode background */
+      transition: background-color 0.3s;
+    }
+    .header {
+      padding: 40px;
+      text-align: left;
+      padding-left: 0;
+    }
+    .header h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 64px;
+      font-weight: bold;
+      color: #fff; /* White text for dark mode */
+    }
+    .dark-mode-toggle {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+    .dark-mode-toggle:hover {
+      color: #337ab7;
+    }
+    .apple-logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 24px;
+    }
+    .content {
+      padding: 20px;
+    }
+    .projects {
+      padding: 20px;
+      padding-left: 0; /* add this */
+    }
+    .project {
+      margin-bottom: 20px;
+      padding: 20px;
+      border-bottom: 1px solid #333; /* Dark mode border */
+      text-align: left; /* add this */
+      padding-left: 0px; /* add this */
+    }
+    .project h2 {
+      margin: 0;
+      padding: 0;
+      color: #fff; /* White text for dark mode */
+    }
+    .project p {
+      margin: 0;
+      padding: 0;
+      color: #ccc; /* Light gray text for dark mode */
+    }
+    .list-spacer li {
+      margin-bottom: 0.5em; /* add this */
+    }
+    .blog {
+      padding: 20px;
+    }
+    .blog h2 {
+      margin: 0;
+      padding: 0;
+      color: #fff; /* White text for dark mode */
+    }
+    .blog ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .blog li {
+      margin-bottom: 1em;
+    }
+    .blog a {
+      text-decoration: none;
+      color: #337ab7; /* Blue text for dark mode */
+    }
+    .blog a:hover {
+      color: #23527c;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="apple-logo">
+        <i class="fa fa-apple" aria-hidden="true"></i>
+      </div>
+      <h1>hi, i'm Safzan</h1>
+      <div class="dark-mode-toggle" onclick="toggleDarkMode()">
+        <i class="fa fa-moon-o" aria-hidden="true"></i>
+      </div>
+    </div>
+    <!-- rest of the HTML code remains the same -->
+
+    <div class="content">
+      <h2>about me</h2>
+      <p>i'm an ai and machine learning enthusiast with a strong foundation in computer science and hands-on experience in developing innovative solutions. my passion lies in building intelligent systems that can transform industries and improve user experiences. with a diverse skill set in various programming languages and frameworks, i can quickly adapt to new technologies and deliver high-quality, impactful results.</p>
+      <p>i have successfully contributed to projects involving generative ai and retrieval-augmented generation (rag) llm systems. my work has focused on developing and fine-tuning ai models to enhance performance and accuracy, particularly in real-world applications. i'm dedicated to continuously learning and growing as a developer, staying current with the latest advancements in ai and related technologies.</p>
+      <p>in my free time, i enjoy contributing to gaming, working on my art, and exploring new ways to use ai to allow for easier self-expression through art. </p>
+      <p>i'm very much excited to further my expertise in generative ai, machine learning, and other modern technologies, driving innovation and making meaningful contributions to the field.</p>
+      <h2>my links</h2>
+      <ul class="list-spacer">
+        <li><a href="https://instagram.com/saf
