@@ -1,157 +1,330 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Safzan's Portfolio</title>
-  <link rel="icon" href="favicon.png" type="image/png">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #ffffff;f
-    }
-    .header {
-      padding: 40px;
-      text-align: left;
-      padding-left: 0;
-    }
-    .header h1 {
-      margin: 0;
-      padding: 0;
-      font-size: 64px;
-      font-weight: bold;
-    }
-    .content {
-      padding: 20px;
-    }
-    .projects {
-      padding: 20px;
-      padding-left: 0; 
-    }
-    .project {
-      margin-bottom: 20px;
-      padding: 20px;
-      border-bottom: 1px solid #cccccc;
-      text-align: left; 
-      padding-left: 0px; 
-    }
-    .project h2 {
-      margin: 0;
-      padding: 0;
-    }
-    .project p {
-      margin: 0;
-      padding: 0;
-    }
-    .list-spacer li {
-      margin-bottom: 0.5em; 
-    }
-    .blog {
-      padding: 20px;
-    }
-    .blog h2 {
-      margin: 0;
-      padding: 0;
-    }
-    .blog ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    .blog li {
-      margin-bottom: 1em;
-    }
-    .blog a {
-      text-decoration: none;
-      color: #337ab7;
-    }
-    .blog a:hover {
-      color: #23527c;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="header">
-      <h1>hi, i'm Safzan</h1>
-    </div>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Safzan's Portfolio</title>
+        <link rel="icon" href="favicon.png" type="image/png" />
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                line-height: 1.6;
+            }
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: #ffffff;
+            }
+            .header {
+                padding: 40px 0;
+                text-align: left;
+            }
+            .header h1 {
+                margin: 0;
+                padding: 0;
+                font-size: 3rem;
+                font-weight: bold;
+            }
+            .content {
+                padding: 20px 0;
+            }
+            .projects {
+                padding: 20px 0;
+            }
+            .project {
+                margin-bottom: 20px;
+                padding: 20px 0;
+                border-bottom: 1px solid #cccccc;
+                text-align: left;
+            }
+            .project h2 {
+                margin: 0;
+                padding: 0;
+            }
+            .project p {
+                margin: 0;
+                padding: 0;
+            }
+            .list-spacer li {
+                margin-bottom: 0.5em;
+            }
+            .blog {
+                padding: 20px 0;
+            }
+            .blog h2 {
+                margin: 0;
+                padding: 0;
+            }
+            .blog ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+            .blog li {
+                margin-bottom: 1em;
+            }
+            .blog a {
+                text-decoration: none;
+                color: #337ab7;
+            }
+            .blog a:hover {
+                color: #23527c;
+            }
+            a {
+                color: #337ab7;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
 
+            @media screen and (max-width: 600px) {
+                body {
+                    font-size: 16px;
+                }
+                .container {
+                    padding: 10px;
+                }
+                .header {
+                    padding: 20px 0;
+                }
+                .header h1 {
+                    font-size: 2rem;
+                }
+                .content,
+                .projects,
+                .project,
+                .blog {
+                    padding: 10px 0;
+                }
+                .list-spacer li {
+                    margin-bottom: 1em;
+                }
+                a {
+                    padding: 10px 0;
+                    display: inline-block;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>hi, i'm Safzan</h1>
+            </div>
 
-		<div class="content">
-			<h2>about me</h2>
-			<p>i'm an ai and machine learning enthusiast with a degree in computer science and engineering (cse) with a specialization in artificial intelligence and machine learning (ai/ml) and hands-on experience in developing innovative solutions. my passion lies in building intelligent systems that can transform industries and improve user experiences. with a diverse skill set in various programming languages and frameworks, i can quickly adapt to new technologies and deliver high-quality, impactful results.</p>
-			<p>i have successfully contributed to projects involving generative ai and retrieval-augmented generation (rag) llm systems. my work has focused on developing and fine-tuning ai models to enhance performance and accuracy, particularly in real-world applications. i'm dedicated to continuously learning and growing as a developer, staying current with the latest advancements in ai and related technologies.</p>
-			<p>in my free time, i enjoy contributing to gaming, working on my art, and exploring new ways to use ai to allow for easier self-expression through art. </p>
-            <p>i'm very much excited to further my expertise in generative ai, machine learning, and other modern technologies, driving innovation and making meaningful contributions to the field.</p>
-            <h2>my links</h2>
-  <ul class="list-spacer">
-    <li><a href="https://github.com/safzanpirani">github</a></li>
-    <li><a href="https://linkedin.com/in/safzanpirani">linkedin</a></li>
-    <li><a href="https://instagram.com/safzanpirani">instagram</a></li>
-    <li><a href="https://www.snapcv.me/safzan">snapcv</a></li>
-    <li><a href="mailto:safzanpirani@gmail.com">email me</a></li>
-    <li><a href="https://drive.google.com/uc?export=download&id=1ead34mC9rH1kvvm0_oifjiQHmveZVkAe">download my resume (.pdf)</a></p>
-  </ul>
-  <div class="projects">
-    <h2>projects</h2>
-    <div class="project">
-      <p><h2>final year mini project</h2></p> 
-      <p><a href="https://github.com/safzanpirani/licenseminispec">license plate detection and recognition using YOLOv8 and easyOCR</a></p>
-      <p><br>
-        this project is a part of our final year mini project for computer science engineering. the goal of this project is to design and develop a system that can detect and recognize license plates in videos using yolov8 and easyocr.</p>
-      <ul class="list-spacer">
-        <li>license plate detection: using YOLOv8, a real-time object detection system, to detect license plates in videos.</li>
-        <li>license plate recognition: Using easyOCR, an optical character recognition system, to recognize the text in the detected license plates.</li>
-      </ul>
-    </div>
-    <div class="project">
-      <p><h2>final year major project</h2></p> 
-      <p><a href="https://github.com/safzanpirani/local-rag">offline, open-source rag</a></p>
-      <p><br>
-        retrieve, augment, and generate with open-source large language models</p>
-      <p>this project provides a self-contained, offline platform for retrieval augmented generation (rag) using open-source large language models (llms). with this project, you can ingesting files and leverage the power of llms without relying on third-party services or exposing sensitive data.</p>
-      <p>key features:</p>
-      <ul class="list-spacer">
-        <li>offline embeddings & llms support: no need for openai or other external services. our platform uses open-source llms, ensuring your data stays within your network.</li>
-        <li>support for multiple sources: ingest files from various sources, including:</li>
-        <ul class="list-spacer">
-          <li>local files: upload and process files from your local machine.</li>
-          <li>github repos: ingest files from github repositories.</li>
-          <li>websites: retrieve and process web pages.</li>
-        </ul>
-        <li>streaming responses: enjoy real-time responses from the model, enabling a more interactive and conversational experience.</li>
-        <li>conversational memory: the model maintains context and understanding throughout conversations, allowing for more coherent and relevant responses.</li>
-      </ul>
-      <p>benefits:</p>
-      <ul class="list-spacer">
-        <li>maintain data confidentiality: by keeping data within your network, you minimize the risk of data breaches and ensure compliance with data protection regulations.</li>
-        <li>cost-effective: no subscription fees or usage charges. run the model on your own hardware or cloud infrastructure.</li>
-        <li>flexibility: easily integrate with your existing infrastructure and workflows.</li>
-      </ul>
-    </div>
-    <div class="project">
-      <p><h2>image comparator</h2></p> 
-      <p><a href="https://imagetooler.vercel.app/">a web-based tool for image manipulation tasks</a></p>
-      <p><br>
-        image comparator is a versatile web-based tool for various image manipulation tasks. it provides a user-friendly interface for comparing, compressing, resizing, cropping, and flipping images.</p>
-      <p>key features:</p>
-      <ul class="list-spacer">
-        <li>image comparison: compare multiple images side by side and download the combined result.</li>
-        <li>image compression: compress both JPG and PNG images to reduce file size.</li>
-        <li>image resizing: resize images by specifying width, height, or scale percentage.</li>
-        <li>image cropping: crop images with various aspect ratio options.</li>
-        <li>image flipping: flip images horizontally or vertically.</li>
-      </ul>
-    </div>
-    <h2>blog</h2>
-    <div class="blog">
-      <ul>
-        <!-- Add links to your blog posts here -->
-        <li><a href="">coming soon</a></li>
-      </ul>
-    </div>
-  </div>
+            <div class="content">
+                <h2>about me</h2>
+                <p>
+                    i'm an ai and machine learning enthusiast with a degree in
+                    computer science and engineering (cse) with a specialization
+                    in artificial intelligence and machine learning (ai/ml) and
+                    hands-on experience in developing innovative solutions. my
+                    passion lies in building intelligent systems that can
+                    transform industries and improve user experiences. with a
+                    diverse skill set in various programming languages and
+                    frameworks, i can quickly adapt to new technologies and
+                    deliver high-quality, impactful results.
+                </p>
+                <p>
+                    i have successfully contributed to projects involving
+                    generative ai and retrieval-augmented generation (rag) llm
+                    systems. my work has focused on developing and fine-tuning
+                    ai models to enhance performance and accuracy, particularly
+                    in real-world applications. i'm dedicated to continuously
+                    learning and growing as a developer, staying current with
+                    the latest advancements in ai and related technologies.
+                </p>
+                <p>
+                    in my free time, i enjoy contributing to gaming, working on
+                    my art, and exploring new ways to use ai to allow for easier
+                    self-expression through art.
+                </p>
+                <p>
+                    i'm very much excited to further my expertise in generative
+                    ai, machine learning, and other modern technologies, driving
+                    innovation and making meaningful contributions to the field.
+                </p>
+
+                <h2>my links</h2>
+                <ul class="list-spacer">
+                    <li>
+                        <a href="https://github.com/safzanpirani">github</a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/safzanpirani"
+                            >linkedin</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/safzanpirani"
+                            >instagram</a
+                        >
+                    </li>
+                    <li><a href="https://www.snapcv.me/safzan">snapcv</a></li>
+                    <li>
+                        <a href="mailto:safzanpirani@gmail.com">email me</a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://drive.google.com/uc?export=download&id=1ead34mC9rH1kvvm0_oifjiQHmveZVkAe"
+                            >download my resume (.pdf)</a
+                        >
+                    </li>
+                </ul>
+            </div>
+
+            <div class="projects">
+                <h2>projects</h2>
+                <div class="project">
+                    <h2>final year mini project</h2>
+                    <p>
+                        <a
+                            href="https://github.com/safzanpirani/licenseminispec"
+                            >license plate detection and recognition using
+                            YOLOv8 and easyOCR</a
+                        >
+                    </p>
+                    <p>
+                        this project is a part of our final year mini project
+                        for computer science engineering. the goal of this
+                        project is to design and develop a system that can
+                        detect and recognize license plates in videos using
+                        yolov8 and easyocr.
+                    </p>
+                    <ul class="list-spacer">
+                        <li>
+                            license plate detection: using YOLOv8, a real-time
+                            object detection system, to detect license plates in
+                            videos.
+                        </li>
+                        <li>
+                            license plate recognition: Using easyOCR, an optical
+                            character recognition system, to recognize the text
+                            in the detected license plates.
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h2>final year major project</h2>
+                    <p>
+                        <a href="https://github.com/safzanpirani/local-rag"
+                            >offline, open-source rag</a
+                        >
+                    </p>
+                    <p>
+                        retrieve, augment, and generate with open-source large
+                        language models
+                    </p>
+                    <p>
+                        this project provides a self-contained, offline platform
+                        for retrieval augmented generation (rag) using
+                        open-source large language models (llms). with this
+                        project, you can ingesting files and leverage the power
+                        of llms without relying on third-party services or
+                        exposing sensitive data.
+                    </p>
+                    <p>key features:</p>
+                    <ul class="list-spacer">
+                        <li>
+                            offline embeddings & llms support: no need for
+                            openai or other external services. our platform uses
+                            open-source llms, ensuring your data stays within
+                            your network.
+                        </li>
+                        <li>
+                            support for multiple sources: ingest files from
+                            various sources, including:
+                        </li>
+                        <ul class="list-spacer">
+                            <li>
+                                local files: upload and process files from your
+                                local machine.
+                            </li>
+                            <li>
+                                github repos: ingest files from github
+                                repositories.
+                            </li>
+                            <li>websites: retrieve and process web pages.</li>
+                        </ul>
+                        <li>
+                            streaming responses: enjoy real-time responses from
+                            the model, enabling a more interactive and
+                            conversational experience.
+                        </li>
+                        <li>
+                            conversational memory: the model maintains context
+                            and understanding throughout conversations, allowing
+                            for more coherent and relevant responses.
+                        </li>
+                    </ul>
+                    <p>benefits:</p>
+                    <ul class="list-spacer">
+                        <li>
+                            maintain data confidentiality: by keeping data
+                            within your network, you minimize the risk of data
+                            breaches and ensure compliance with data protection
+                            regulations.
+                        </li>
+                        <li>
+                            cost-effective: no subscription fees or usage
+                            charges. run the model on your own hardware or cloud
+                            infrastructure.
+                        </li>
+                        <li>
+                            flexibility: easily integrate with your existing
+                            infrastructure and workflows.
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h2>image comparator</h2>
+                    <p>
+                        <a href="https://imagetooler.vercel.app/"
+                            >a web-based tool for image manipulation tasks</a
+                        >
+                    </p>
+                    <p>
+                        image comparator is a versatile web-based tool for
+                        various image manipulation tasks. it provides a
+                        user-friendly interface for comparing, compressing,
+                        resizing, cropping, and flipping images.
+                    </p>
+                    <p>key features:</p>
+                    <ul class="list-spacer">
+                        <li>
+                            image comparison: compare multiple images side by
+                            side and download the combined result.
+                        </li>
+                        <li>
+                            image compression: compress both JPG and PNG images
+                            to reduce file size.
+                        </li>
+                        <li>
+                            image resizing: resize images by specifying width,
+                            height, or scale percentage.
+                        </li>
+                        <li>
+                            image cropping: crop images with various aspect
+                            ratio options.
+                        </li>
+                        <li>
+                            image flipping: flip images horizontally or
+                            vertically.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="blog">
+                <h2>blog</h2>
+                <ul>
+                    <li><a href="">coming soon</a></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
