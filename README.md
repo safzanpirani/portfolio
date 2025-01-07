@@ -1,1 +1,3 @@
-# simple-portfolio
+# portfolio
+
+a simple, static page portfolio
